@@ -3,7 +3,7 @@
 
 ADXL345 has equivalent data representation as MPU6050, and therefore, we can adapt the model training, dataset and inference application between both sensors.
 
-> Edge Impulse Project Link: https://studio.edgeimpulse.com/public/649039/live   **Attribution of credit: This project is adapted from [JoaoYukio's MPU6050 on ESP32 via TFLite & EdgeImpulse Repo](https://github.com/JoaoYukio/TinyML_GestureRecognition_Esp32) and reuses Joao Yukio's gesture dataset.**
+> Edge Impulse Project Link: https://studio.edgeimpulse.com/public/649039/live   **Attribution of credit: This project is adapted from [JoaoYukio's MPU6050 on ESP32 via TFLite & EdgeImpulse Repo](https://github.com/JoaoYukio/TinyML_GestureRecognition_Esp32) and reuses Joao Yukio's gesture dataset under GPLv3 license.** 
 
 
 
