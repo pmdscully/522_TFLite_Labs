@@ -45,7 +45,7 @@ ADXL345 has equivalent data representation as MPU6050, and therefore, we can ada
        - Training epochs 30
 2. Joao Yukio's project uses a `Training using Statistics of Batch data` approach to modelling, using EI's Spectral Features to model the behaviours at https://studio.edgeimpulse.com/public/36985/latest/
    - Note: The classification accuracy performance metric is higher in this approach than the `Raw Batch Data` modelling.
-3. To retrain the model using a **Time Series representation**, then clone one of these projects, update the Data Preprocessing and Data Modelling stages, train/test then re-export.
+3. To retrain the model using a `Time Series representation`, then clone one of these projects, update the Data Preprocessing and Data Modelling stages, train/test then re-export. This approach will require a change of model type to a sequence-based model (such as RNN, LSTM, ConvLSTM, GRU, NHits, N-BEATS, or similar).
 
 
 
