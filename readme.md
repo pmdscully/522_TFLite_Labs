@@ -85,7 +85,7 @@ Depending on your sensor , choose either the ADXL345 directories or the MPU6050.
 
 
 
-#### Upload Classifier Code: (30+ mins)
+### Upload Classifier Code: (30+ mins)
 
 Now move to the sensor with integrated classifier code (V2). Firstly, the code will take along time to compile.  In File->Preferences-> Turn on  verbose outputs for compilation , to monitor its progress, to convince yourself that it is still working:
 
@@ -101,7 +101,9 @@ Now move to the sensor with integrated classifier code (V2). Firstly, the code w
 
 As you'll know, this differs from "offline" model classification performance on a test set (or on a validation set). This is a test of the applied and integrated system. The "offline" performance is an isolated test of the model only. 
 
-This leads to three sets results:
+#### Three Sets Evaluation Results
+
+Measuring the Applied and Integrated System leads to three sets of performance evaluation results:
 
 1. Cross Validation model performance results (on validation set from dataset).
 2. Test set model performance results (on test set from dataset).
