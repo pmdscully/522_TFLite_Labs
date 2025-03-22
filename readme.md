@@ -34,7 +34,7 @@ ADXL345 has equivalent data representation as MPU6050, and therefore, we can ada
 ### Model Code and Edge Impulse Project : (5 mins)
 1. The exported model file uses a `Training using Raw Batch data`  approach in `ei-gesture_class_esp32_dataforwarder-arduino-1.0.7.zip` has the following specification:
    - TFLite format
-   - Quantization Int8 model parameters.
+   - Quantization Int8 model parameters. (i.e. 75% reduction in model parameter size, from 32-bit Float to 8-bit int)
    - Raw data input (no batch statistics)
    - Neural Network architecture: 360>20>10>4
      - Training parameters into EI's default model training procedure:
